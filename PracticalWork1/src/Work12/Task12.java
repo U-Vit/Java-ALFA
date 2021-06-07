@@ -1,12 +1,12 @@
 package Work12;
 
+import java.util.Scanner;
+
 public class Task12 {
     public static void main(String[] args) {
-        System.out.println( " + + +      +      +       +       +      \n" +
-                            "     +     + +      +     +       + +     \n" +
-                            "     +    +   +      +   +       +   +    \n" +
-                            "+    +   + + + +      + +       + + + + \n" +
-                            " + +    +       +      +       +       +"
-        );
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your name please -->");
+        String name = scanner.nextLine();
+        System.out.println("My name is " + name);
     }
 }
